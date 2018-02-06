@@ -36,17 +36,26 @@ h2 {
     border-bottom: #4aaaa5 solid;
 }
 
+.connect {
+    width: 260px;
+}
+
 /* Navigation line */
 nav {
-    /* text-align: right;
+    /* text-align: right; */
     width: 950px;
-    height: 76px;
+    /* height: 76px;
     line-height: 32px; */
-    background: red;
+    /* background: red; */
+    margin-left: 20px;
     /* margin-top: -50px; */
 }
 .navbar-brand {
     background: #4aaaa5;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+    /* margin-bottom: 0px; */
 }
 
 .nextPage {
@@ -67,6 +76,15 @@ body {
     float: left;
 }
 
+.contactTitle {
+    margin-left: 40px;
+    width: 600px;
+}
+
+h3, textarea, button {
+    margin-left: 40px;
+}
+
 #bio-image {
     float: left;
     margin-right: 20px;
@@ -77,6 +95,7 @@ body {
     border: #dd00dd solid;    
     width: 270px;
     margin-left: 40px;
+    padding-left: 10px;
     float: left;
 }
 
@@ -119,8 +138,9 @@ h4 {
 footer {
     clear: both;
     padding: 20px 0px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     background: #666666;
-    width: 950px;
+    width: 1000px;
 }
