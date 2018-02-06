@@ -1,0 +1,126 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+/* The Header at the top of every page */
+header {
+    margin-bottom: 20px;
+    /* float: left; */
+    background: #4aaaa5;
+    border: #cccccc;
+    /* background-color: #ffffff; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 400px;
+    height: 76px;
+    line-height: 32px;
+    color: #ffffff;
+    /* padding: 20px; */
+}
+
+/* My Name */
+h1 {
+    /* font-size: 36px; */
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Subheadings */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #4aaaa5;
+    border-bottom: #4aaaa5 solid;
+}
+
+/* Navigation line */
+nav {
+    /* text-align: right;
+    width: 950px;
+    height: 76px;
+    line-height: 32px; */
+    background: red;
+    /* margin-top: -50px; */
+}
+.navbar-brand {
+    background: #4aaaa5;
+}
+
+.nextPage {
+    margin-top: 20px;
+}
+
+/* Background */
+body {
+    background-image: url('../images/zigZagWool.png');
+}
+
+
+#bio, #contactInfo, #portfolioItems {
+    background: #ffffff;
+    border: #dd00dd solid;
+    width: 650px;
+    margin-left: 20px;
+    float: left;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 20px;
+}
+
+#contact {
+    background: #ffffff;
+    border: #dd00dd solid;    
+    width: 270px;
+    margin-left: 40px;
+    float: left;
+}
+
+#github, #linkedin, #stack {
+    height: 60px;
+    width: 60px;
+}
+
+.bioGraphy {
+    float: left;
+    overflow: auto;
+}
+
+h3 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 115px;
+    font-size: 15px;
+}
+
+/* Position the words in the Portfolio so that they would be on the images */
+h4 {
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 60px;
+    width: 200px;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #666666;
+    width: 950px;
+}
