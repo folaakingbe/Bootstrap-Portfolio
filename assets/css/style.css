@@ -1,22 +1,9 @@
+/* font not working for some reason */
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
-/* The Header at the top of every page */
-header {
-    margin-bottom: 20px;
-    /* float: left; */
-    background: #4aaaa5;
-    border: #cccccc;
-    /* background-color: #ffffff; */
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 400px;
-    height: 76px;
-    line-height: 32px;
-    color: #ffffff;
-    /* padding: 20px; */
-}
 
 /* My Name */
 h1 {
@@ -124,15 +111,27 @@ button {
 
 /* Position the words in the Portfolio so that they would be on the images */
 h4 {
+    position: relative;
+    left: 35px;
+    up: 100px;
     background: #4aaaa5;
     color: #ffffff;
     height: 60px;
     width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
 }
 
 #img1, #img2, #img3, #img4, #img5 {
     padding: 10px;
     margin-bottom: 10px;
+}
+
+
+.title1 {
+    margin-bottom: -50px;
+    z-index: 1;
 }
 
 footer {
