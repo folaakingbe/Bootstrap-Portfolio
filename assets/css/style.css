@@ -17,28 +17,29 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     color: #4aaaa5;
     border-bottom: #4aaaa5 solid;
 }
 
 .connect {
-    width: 260px;
+    /* width: 260px; */
+    text-align: center;
 }
 
 /* Navigation line */
 nav {
     /* text-align: right; */
-    width: 950px;
+    /* width: 950px; */
     /* height: 76px;
     line-height: 32px; */
-    /* background: red; */
+    background: #0000ff63;
     margin-left: 20px;
     /* margin-top: -50px; */
 }
 .navbar-brand {
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
     padding: 20px;
     padding-bottom: 40px;
     margin-right: 20px;
@@ -52,12 +53,17 @@ nav {
 /* Background */
 body {
     background-image: url('../images/zigZagWool.png');
+    /* background-image: url('https://media0.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
 #bio, #contactInfo, #portfolioItems {
     background: #ffffff;
-    border: #dd00dd solid;
+    border: #ff0000 solid;
     width: 650px;
     margin-left: 20px;
     float: left;
@@ -79,16 +85,19 @@ h3, textarea, button {
 
 #contact {
     background: #ffffff;
-    border: #dd00dd solid;    
-    width: 270px;
-    margin-left: 40px;
-    padding-left: 10px;
+    border: #ff0000 solid;    
+    /* width: 270px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 10px; */
     float: left;
 }
 
 #github, #linkedin, #stack {
     height: 60px;
     width: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bioGraphy {
@@ -141,5 +150,6 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     background: #666666;
-    width: 1000px;
+    color: black;
+    /* width: 1000px; */
 }
