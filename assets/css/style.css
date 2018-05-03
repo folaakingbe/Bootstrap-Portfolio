@@ -64,14 +64,14 @@ body {
 #bio, #contactInfo, #portfolioItems {
     background: #ffffff;
     border: #ff0000 solid;
-    width: 650px;
+    /* width: 650px; */
     margin-left: 20px;
-    float: left;
+    margin-top: 20px;
+    /* float: left; */
 }
 
 .contactTitle {
     margin-left: 40px;
-    width: 600px;
 }
 
 h3, textarea, button {
