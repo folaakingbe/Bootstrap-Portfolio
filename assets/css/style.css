@@ -35,13 +35,13 @@ nav {
     /* height: 76px;
     line-height: 32px; */
     background: #0000ff63;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     /* margin-top: -50px; */
 }
 .navbar-brand {
     /* background: #4aaaa5; */
-    padding: 20px;
-    padding-bottom: 40px;
+    /* padding: 20px; */
+    /* padding-bottom: 40px; */
     margin-right: 20px;
     /* margin-bottom: 0px; */
 }
@@ -149,7 +149,11 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    background: #666666;
-    color: black;
+    background: #0000ff63;
+    color: white;
     /* width: 1000px; */
+}
+
+.card-deck {
+    margin-top: 20px;
 }
