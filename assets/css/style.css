@@ -4,12 +4,33 @@
     color: #777777;
 }
 
+header{
+    background-image: url("../images/technology.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonGroup {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
 
 /* My Name */
 h1 {
     /* font-size: 36px; */
     font-weight: bold;
     padding: 20px;
+}
+
+.introduction {
+    font-size: 64px;
+    color: black;
+    text-shadow: 2px 2px #ff0000;
 }
 
 /* Subheadings */
@@ -61,11 +82,12 @@ body {
 }
 
 
-#bio, #contactInfo, #portfolioItems {
-    background: #ffffff;
+#bio, #contactInfo, #portfolioItems, #skills {
+    background-image: url("../images/pw_maze_white.png");
     border: #ff0000 solid;
     /* width: 650px; */
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     /* float: left; */
 }
@@ -84,7 +106,7 @@ h3, textarea, button {
 }
 
 #contact {
-    background: #ffffff;
+    background-image: url("../images/pw_maze_white.png");
     border: #ff0000 solid;    
     /* width: 270px; */
     margin-left: auto;
@@ -120,7 +142,7 @@ button {
 
 /* Position the words in the Portfolio so that they would be on the images */
 h4 {
-    position: relative;
+    /* position: relative;
     left: 35px;
     up: 100px;
     background: #4aaaa5;
@@ -129,7 +151,8 @@ h4 {
     width: 200px;
     text-align: center;
     padding-top: 20px;
-    margin-left: 10px;
+    margin-left: 10px; */
+    color: black;
 }
 
 #img1, #img2, #img3, #img4, #img5 {
@@ -156,4 +179,12 @@ footer {
 
 .card-deck {
     margin-top: 20px;
+}
+
+.list-group {
+    margin-left: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
 }
